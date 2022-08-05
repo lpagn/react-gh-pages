@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/lpagn.github.io/react-gh-pages/static/css/main.073c9b0a.css",
-    "main.js": "/lpagn.github.io/react-gh-pages/static/js/main.17f8146c.js",
-    "static/js/787.62449090.chunk.js": "/lpagn.github.io/react-gh-pages/static/js/787.62449090.chunk.js",
-    "static/media/logo.svg": "/lpagn.github.io/react-gh-pages/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/lpagn.github.io/react-gh-pages/index.html",
-    "main.073c9b0a.css.map": "/lpagn.github.io/react-gh-pages/static/css/main.073c9b0a.css.map",
-    "main.17f8146c.js.map": "/lpagn.github.io/react-gh-pages/static/js/main.17f8146c.js.map",
-    "787.62449090.chunk.js.map": "/lpagn.github.io/react-gh-pages/static/js/787.62449090.chunk.js.map"
+    "main.css": "/react-gh-pages/static/css/main.073c9b0a.css",
+    "main.js": "/react-gh-pages/static/js/main.a81c8682.js",
+    "static/js/787.62449090.chunk.js": "/react-gh-pages/static/js/787.62449090.chunk.js",
+    "static/media/logo.svg": "/react-gh-pages/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/react-gh-pages/index.html",
+    "main.073c9b0a.css.map": "/react-gh-pages/static/css/main.073c9b0a.css.map",
+    "main.a81c8682.js.map": "/react-gh-pages/static/js/main.a81c8682.js.map",
+    "787.62449090.chunk.js.map": "/react-gh-pages/static/js/787.62449090.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.17f8146c.js"
+    "static/js/main.a81c8682.js"
   ]
 }

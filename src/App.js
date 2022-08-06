@@ -67,7 +67,7 @@ export default class App extends Component {
       <Container>
         <Header as='h2'>MVP</Header>
 
-        <a href="https://docs.google.com/spreadsheets/d/1NRSJVap34kssby5_t1uxmOUu___pOcmOCSf7DzM6I0g/edit">Take a look at the Google Sheet</a>
+        <a href="https://docs.google.com/spreadsheets/d/1NRSJVap34kssby5_t1uxmOUu___pOcmOCSf7DzM6I0g/edit" target="_blank">Take a look at the Google Sheet</a>
         <br></br>
         <Form className="form" onSubmit={this.submitHandler}>
           <Form.Field>

@@ -6,10 +6,14 @@ f ( '(())') = true
 
 f ( '((') = false
 
+`python3 PROBLEMS/problemI.py`
+
 # Problem II
 
 Design a function that performs the following transformation on a list
 f ( [a,b,c,d] ) = [bcd,acd,abd,abc] 
+
+`python3 PROBLEMS/problemII.py`
 
 # MVP
 

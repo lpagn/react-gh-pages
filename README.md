@@ -46,7 +46,8 @@ https://lpagn.github.io/react-gh-pages/
 
 ### Important
 
-Disable Cross-Origin Restrictions in your browser so that the email can be sent.
+Disable Cross-Origin Restrictions in your browser so that the email can be sent. Since we do not have any
+control over the backend service we disable it.
 
 ### Detailed References
 

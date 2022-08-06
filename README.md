@@ -1,3 +1,9 @@
+# PT Lucio Pagni
+
+Detailed instructions are here:
+
+https://github.com/lpagn/react-gh-pages/blob/main/PT_Lucio_Pagni_.pdf
+
 # Problem I
 
 Determine if a sequence of parenthesis is correctly balanced. A sequence is correctly balanced if for every opening ( there is a closing ).

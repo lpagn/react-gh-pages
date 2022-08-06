@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Button, Form, Container, Header } from 'semantic-ui-react'
 import './App.css';
+import axios from 'axios';
 
 export default class App extends Component {
 
@@ -8,15 +9,21 @@ export default class App extends Component {
     super(props)
   
     this.state = {
-       idOp: '',
-       Tasa: '',
-       Email: ''
+       idOp: '1',
+       Tasa: '2',
+       Email: 'lpagni@itba.edu.ar'
     }
 
     this.body = {
       'id Op': this.state.idOp,
       'Tasa': this.state.Tasa,
       'Email': this.state.Email
+    }
+
+    this.email = {
+      idOp: 100,
+      tasa: 1.5,
+      email: 'lpagni@itba.edu.ar'
     }
 
   }
@@ -32,7 +39,7 @@ export default class App extends Component {
     e.preventDefault();
     console.log(this.state);
     console.log(this.body);
-
+    // There is a limit of 100 so be careful with this request
     // axios.post('https://sheet.best/api/sheets/e38ee28e-7bc6-4c64-a312-a46b1ba47ff6', this.body)
     // .then(response => {
     //   console.log(response);
@@ -40,14 +47,18 @@ export default class App extends Component {
     //     this.sendEmail()
     //   }
     // })
+    this.sendEmail();
   }
 
   sendEmail = e => {
     console.log("Send Email");
-    // axios.post('https://hooks.zapier.com/hooks/catch/6872019/oahrt5g/', this.state)
-    // .then(response => {
-    //   console.log(response);
-    // })
+    this.email['idOp'] = this.body['id Op'];
+    this.email['tasa'] = this.body['Tasa'];
+    this.email['email'] = this.body['Email'];
+    axios.post('https://hooks.zapier.com/hooks/catch/6872019/oahrt5g/', this.email)
+    .then(response => {
+      console.log(response);
+    })
   }
 
   render() {

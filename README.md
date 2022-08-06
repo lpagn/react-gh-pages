@@ -54,6 +54,8 @@ Since I used a free tier subscription in Sheet Best there is a maximum of 100 re
 
 ### Detailed References
 
+I used the following material as guide.
+
 ### How to publish the app
 
 https://github.com/gitname/react-gh-pages

@@ -40,14 +40,14 @@ export default class App extends Component {
     console.log(this.state);
     console.log(this.body);
     // There is a limit of 100 so be careful with this request
-    // axios.post('https://sheet.best/api/sheets/e38ee28e-7bc6-4c64-a312-a46b1ba47ff6', this.body)
-    // .then(response => {
-    //   console.log(response);
-    //   if(response["status"]===200){
-    //     this.sendEmail()
-    //   }
-    // })
-    this.sendEmail();
+    axios.post('https://sheet.best/api/sheets/e38ee28e-7bc6-4c64-a312-a46b1ba47ff6', this.body)
+    .then(response => {
+      console.log(response);
+      if(response["status"]===200){
+        this.sendEmail()
+      }
+    })
+    // this.sendEmail();
   }
 
   sendEmail = e => {

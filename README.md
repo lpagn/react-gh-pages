@@ -56,6 +56,7 @@ https://lpagn.github.io/react-gh-pages/
 To Log In use the harcoded credentials.
 
 `username: admin`
+
 `password: admin`
 
 Disable Cross-Origin Restrictions in your browser so that the email can be sent. Since we do not have any

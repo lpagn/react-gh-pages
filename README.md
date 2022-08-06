@@ -21,6 +21,8 @@ https://lpagn.github.io/react-gh-pages/
 
 ### References
 
+## How to publish the app
 https://github.com/gitname/react-gh-pages
-https://www.freecodecamp.org/news/react-and-googlesheets/
 
+## How to interact with a google spread sheet
+https://www.freecodecamp.org/news/react-and-googlesheets/

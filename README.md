@@ -78,4 +78,6 @@ https://github.com/gitname/react-gh-pages
 
 https://www.freecodecamp.org/news/react-and-googlesheets/
 
+### How to do a simple and hardcoded login
+
 https://contactmentor.com/login-form-react-js-code/

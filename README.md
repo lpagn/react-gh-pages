@@ -50,6 +50,8 @@ https://lpagn.github.io/react-gh-pages/
 Disable Cross-Origin Restrictions in your browser so that the email can be sent. Since we do not have any
 control over the backend service we disable it.
 
+Develop >> Disable Cros-Origin Restrictions
+
 Since I used a free tier subscription in Sheet Best there is a maximum of 100 requests, It may produce an error.
 
 ### Detailed References

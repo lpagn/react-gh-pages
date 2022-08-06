@@ -36,19 +36,19 @@ Make sure that you have all the needed dependencies.
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
+The page will reload when you make changes.
 You may also see any lint errors in the console.
 
 ### `npm run deploy`
 
-Publishes the code in: \
+Publishes the code in: 
 
 https://lpagn.github.io/react-gh-pages/
 
 ### Important
 
 Disable Cross-Origin Restrictions in your browser so that the email can be sent. Since we do not have any
-control over the backend service we disable it.\
+control over the backend service we disable it.
 
 Since I used a free tier subscription in Sheet Best there is a maximum of 100 requests, It may produce an error.
 

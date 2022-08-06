@@ -10,7 +10,7 @@ f ( '((') = false
 
 # Problem II
 
-Design a function that performs the following transformation on a list
+Design a function that performs the following transformation on a list.
 f ( [a,b,c,d] ) = [bcd,acd,abd,abc] 
 
 `python3 PROBLEMS/problemII.py`
@@ -29,7 +29,7 @@ In the project directory, you can run:
 
 ### `npm install`
 
-Make sure that you have all the needed dependencies
+Make sure that you have all the needed dependencies.
 
 ### `npm start`
 
@@ -41,20 +41,25 @@ You may also see any lint errors in the console.
 
 ### `npm run deploy`
 
-Publishes the code in 
+Publishes the code in: \
+
 https://lpagn.github.io/react-gh-pages/
 
 ### Important
 
 Disable Cross-Origin Restrictions in your browser so that the email can be sent. Since we do not have any
-control over the backend service we disable it.
+control over the backend service we disable it.\
+
+Since I used a free tier subscription in Sheet Best there is a maximum of 100 requests, It may produce an error.
 
 ### Detailed References
 
-## How to publish the app
+### How to publish the app
+
 https://github.com/gitname/react-gh-pages
 
-## How to interact with a google spread sheet
+### How to interact with a google spread sheet
+
 https://www.freecodecamp.org/news/react-and-googlesheets/
 
 https://contactmentor.com/login-form-react-js-code/
